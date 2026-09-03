@@ -1,9 +1,8 @@
-name: Bai tap Trigger
-on: [push]
+name: Gac Cong PR
+on: [pull_request]
 jobs:
-  chao-hoi:
+  kiem-tra:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: echo "Da keo code ve may ao thanh cong!"
-      - run: ls -la
+      - run: npm test

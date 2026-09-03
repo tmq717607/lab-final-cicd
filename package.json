@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "test": "node -e \"console.error('Phat hien bug nghiem trong!'); process.exit(1);\""
+  }
+}
