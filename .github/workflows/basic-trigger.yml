@@ -4,4 +4,6 @@ jobs:
   chao-hoi:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Day la he thong CI/CD. Phat hien co ma nguon moi day len!"
+      - uses: actions/checkout@v4
+      - run: echo "Da keo code ve may ao thanh cong!"
+      - run: ls -la
