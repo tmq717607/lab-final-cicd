@@ -1,0 +1,7 @@
+name: Bai tap Trigger
+on: [push]
+jobs:
+  chao-hoi:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Day la he thong CI/CD. Phat hien co ma nguon moi day len!"
